@@ -12,6 +12,7 @@ var interval;
 // Evento de clique do botão "start"
 document.getElementById('start').addEventListener('click', startGame);
 
+// Função para atualizar o score
 function atualizarScore() {
   document.getElementById("score").textContent = `Score: ${score}`;
 }
