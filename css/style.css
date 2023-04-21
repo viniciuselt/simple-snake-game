@@ -1,0 +1,62 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    color: #212121;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #01a009;
+    color: #ffffff;
+}
+
+/* Estilos específicos para o jogo da cobrinha */
+
+#canvas {
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+    background-color: #fff;
+    display: block;
+    margin-top: 1.5rem;
+}
+
+#menu {
+    background-color: #424242;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start {
+    display: block;
+    margin: 0 auto;
+}
+
+#score {
+    font-size: 2rem;
+    color: #01a009;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
